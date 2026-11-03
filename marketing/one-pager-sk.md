@@ -38,4 +38,4 @@ Konektor je vo fáze pilotu s vybranými zákazníkmi. <!-- TODO: aktualizovať 
 - **Otvorené API** so zdokumentovanou špecifikáciou OpenAPI.
 - **AI bez vlastného vývoja** – použijete AI, ktorú vaši ľudia už majú.
 
-**Kontakt:** SORTEC EUROPE s.r.o. – distribútor a obchodno-vývojový partner Avemeo, partner pre [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) v Slovak Telekom. <!-- TODO: meno, e-mail, telefón, web -->
+**Kontakt:** SORTEC EUROPE s.r.o. – distribútor a obchodno-vývojový partner Avemeo, partner pre [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) v Slovak Telekom. [avemeo@sortec.sk](mailto:avemeo@sortec.sk)

@@ -12,7 +12,7 @@ Konektor pracuje len s kontom a oprávneniami, ktoré používateľ povolí pri 
 
 V pilotnej fáze konektor testovali <!-- TODO: počet / typ zákazníkov, s ich súhlasom -->. <!-- TODO: konkrétny výsledok z pilotu, napr. čas ušetrený pri úprave playlistov alebo rýchlejšie odhalenie výpadkov -->
 
-Konektor je dostupný od <!-- TODO: dátum --> pre <!-- TODO: plány / zákazníkov -->. Dokumentácia: <!-- TODO: odkaz na GitHub repozitár -->.
+Konektor je dostupný od <!-- TODO: dátum --> pre <!-- TODO: plány / zákazníkov -->. Dokumentácia: [github.com/sortec-europe/avemeo-api](https://github.com/sortec-europe/avemeo-api).
 
 ## O Avemeo
 
@@ -20,4 +20,4 @@ Avemeo je cloudová platforma na správu obrazoviek, hotelovej TV, interaktívny
 
 Na Slovensku Avemeo dodáva a rozvíja spoločnosť SORTEC EUROPE s.r.o., distribútor a obchodno-vývojový partner Avemeo a partner pre službu [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) v Slovak Telekom.
 
-**Kontakt pre médiá:** <!-- TODO -->
+**Kontakt pre médiá:** [avemeo@sortec.sk](mailto:avemeo@sortec.sk)

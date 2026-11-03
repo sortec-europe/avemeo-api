@@ -57,15 +57,15 @@ Celá špecifikácia: `https://<váš-cloud>/backend/openapi/`. Podrobnosti a au
 Konektor Avemeo je vzdialený server [Model Context Protocol](https://modelcontextprotocol.io). Keď bude pre vaše konto dostupný, pridáte ho do AI asistenta raz:
 
 1. V AI asistentovi otvorte nastavenia konektorov (v Claude: **Customize → Connectors → Add custom connector**).
-2. Zadajte adresu konektora Avemeo: `https://<adresa-konektora>` <!-- TODO: finálna adresa -->
+2. Zadajte adresu konektora Avemeo: `https://mcp.avemeo.com`
 3. Prihláste sa svojím účtom Avemeo a zvoľte, k čomu má asistent prístup.
 
 Stav, nástroje a bezpečnosť: [docs/mcp-connector.md](docs/mcp-connector.md).
 
 ## Kontakt
 
-- Avemeo: <!-- TODO: web, e-mail -->
-- Predaj, nasadenie a pilotný program (Slovensko): **SORTEC EUROPE s.r.o.** – distribútor a obchodno-vývojový partner Avemeo, partner pre [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) v Slovak Telekom. <!-- TODO: kontakt -->
+- Avemeo: [avemeo.sk](https://avemeo.sk), [avemeo@sortec.sk](mailto:avemeo@sortec.sk)
+- Predaj, nasadenie a pilotný program (Slovensko): **SORTEC EUROPE s.r.o.** – distribútor a obchodno-vývojový partner Avemeo, partner pre [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) v Slovak Telekom. [avemeo@sortec.sk](mailto:avemeo@sortec.sk)
 
 ---
 

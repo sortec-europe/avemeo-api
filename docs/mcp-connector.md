@@ -14,7 +14,7 @@ Any assistant that supports remote MCP servers with OAuth, for example:
 | ChatGPT | Custom connector (developer mode), OAuth sign-in |
 | Gemini CLI, Cursor, VS Code and others | Add a remote MCP server with the connector URL |
 
-Connector URL: `https://<connector-url>` <!-- TODO -->
+Connector URL: `https://mcp.avemeo.com`
 
 ## Sign-in and permissions
 
@@ -46,4 +46,4 @@ Connector URL: `https://<connector-url>` <!-- TODO -->
 
 ## Pilot program
 
-Interested in testing the connector? Contact <!-- TODO: contact -->.
+Interested in testing the connector? Contact [avemeo@sortec.sk](mailto:avemeo@sortec.sk).

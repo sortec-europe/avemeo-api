@@ -38,4 +38,4 @@ The connector is in a pilot phase with selected customers. <!-- TODO: update at 
 - **Open API** with a documented OpenAPI specification.
 - **AI without custom development** – use the AI your team already has.
 
-**Contact:** SORTEC EUROPE s.r.o. – distributor and business & development partner of Avemeo, partner for [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) by Slovak Telekom. <!-- TODO: name, e-mail, phone, web -->
+**Contact:** SORTEC EUROPE s.r.o. – distributor and business & development partner of Avemeo, partner for [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) by Slovak Telekom. [avemeo@sortec.sk](mailto:avemeo@sortec.sk)
