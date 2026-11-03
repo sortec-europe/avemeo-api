@@ -57,7 +57,7 @@ Full specification: `https://<your-cloud>/backend/openapi/`. Details and authent
 The Avemeo connector is a remote [Model Context Protocol](https://modelcontextprotocol.io) server. When it is available for your account, you add it to your AI assistant once:
 
 1. In your AI assistant open the connectors settings (in Claude: **Customize → Connectors → Add custom connector**).
-2. Enter the Avemeo connector URL: `https://<connector-url>` <!-- TODO: final URL -->
+2. Enter the Avemeo connector URL: `https://mcp.avemeo.com` <!-- TODO: final URL -->
 3. Sign in with your Avemeo account and choose what the assistant may access.
 
 Status, tools and security: [docs/mcp-connector.md](docs/mcp-connector.md).
