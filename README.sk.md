@@ -59,8 +59,8 @@ Konektor Avemeo je vzdialený server [Model Context Protocol](https://modelconte
 
 1. V AI asistentovi otvorte nastavenia konektorov (v Claude: **Customize → Connectors → Add custom connector**).
 2. Zadajte adresu konektora podľa vášho cloudu:
-   - Avemeo (`ds.avemeo.com`): `https://mcp.avemeo.com`
-   - [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) (`cloud.tvstream.sk`): `https://mcp.tvstream.sk`
+   - Avemeo (`ds.avemeo.com`): `https://mcp.avemeo.com/mcp`
+   - [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) (`cloud.tvstream.sk`): `https://mcp.tvstream.sk/mcp`
 3. Prihláste sa svojím účtom Avemeo a zvoľte, k čomu má asistent prístup.
 
 Stav, nástroje a bezpečnosť: [docs/mcp-connector.md](docs/mcp-connector.md).

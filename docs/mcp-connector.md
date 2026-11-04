@@ -18,8 +18,8 @@ Connector URL (at launch), depending on your cloud:
 
 | Cloud | Connector URL |
 |---|---|
-| Avemeo (`ds.avemeo.com`) | `https://mcp.avemeo.com` |
-| [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) by Slovak Telekom (`cloud.tvstream.sk`) | `https://mcp.tvstream.sk` |
+| Avemeo (`ds.avemeo.com`) | `https://mcp.avemeo.com/mcp` |
+| [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) by Slovak Telekom (`cloud.tvstream.sk`) | `https://mcp.tvstream.sk/mcp` |
 
 ## Sign-in and permissions
 

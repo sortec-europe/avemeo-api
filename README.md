@@ -59,8 +59,8 @@ The Avemeo connector is a remote [Model Context Protocol](https://modelcontextpr
 
 1. In your AI assistant open the connectors settings (in Claude: **Customize → Connectors → Add custom connector**).
 2. Enter the connector URL for your cloud:
-   - Avemeo (`ds.avemeo.com`): `https://mcp.avemeo.com`
-   - [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) (`cloud.tvstream.sk`): `https://mcp.tvstream.sk`
+   - Avemeo (`ds.avemeo.com`): `https://mcp.avemeo.com/mcp`
+   - [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) (`cloud.tvstream.sk`): `https://mcp.tvstream.sk/mcp`
 3. Sign in with your Avemeo account and choose what the assistant may access.
 
 Status, tools and security: [docs/mcp-connector.md](docs/mcp-connector.md).

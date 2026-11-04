@@ -31,7 +31,7 @@ The assistant works only with your account and the permissions you grant at sign
 
 For customers without their own AI tool, the Avemeo team is also building an AI assistant directly into the CMS.
 
-The connector (`mcp.avemeo.com`, for Business Stream `mcp.tvstream.sk`) and the CMS assistant are in development; a pilot with selected customers is being prepared. Interested in the pilot: [avemeo@sortec.sk](mailto:avemeo@sortec.sk).
+The connector (`https://mcp.avemeo.com/mcp`, for Business Stream `https://mcp.tvstream.sk/mcp`) and the CMS assistant are in development; a pilot with selected customers is being prepared. Interested in the pilot: [avemeo@sortec.sk](mailto:avemeo@sortec.sk).
 
 ## Why Avemeo
 

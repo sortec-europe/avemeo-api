@@ -31,7 +31,7 @@ AI pracuje len s vaším kontom a s oprávneniami, ktoré mu pri prihlásení po
 
 Pre zákazníkov bez vlastnej AI pripravuje tím Avemeo aj AI asistenta priamo v CMS.
 
-Konektor (adresa `mcp.avemeo.com`, pre Business Stream `mcp.tvstream.sk`) aj asistent v CMS sú vo vývoji, pilot s vybranými zákazníkmi pripravujeme. Záujem o pilot: [avemeo@sortec.sk](mailto:avemeo@sortec.sk).
+Konektor (adresa `https://mcp.avemeo.com/mcp`, pre Business Stream `https://mcp.tvstream.sk/mcp`) aj asistent v CMS sú vo vývoji, pilot s vybranými zákazníkmi pripravujeme. Záujem o pilot: [avemeo@sortec.sk](mailto:avemeo@sortec.sk).
 
 ## Prečo Avemeo
 
