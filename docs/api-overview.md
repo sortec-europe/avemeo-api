@@ -15,7 +15,6 @@ The Avemeo REST API is the same API that the Avemeo CMS web application uses. It
 | API key | `api-key: <key>` | Remote device control (`/api/remote/…`). |
 
 Keep tokens and API keys secret. Use a dedicated user with the minimum permissions needed.
-<!-- TODO (Avemeo): service accounts with scopes for content operations – see roadmap -->
 
 ## Main areas
 
@@ -59,5 +58,3 @@ curl -s -X POST "$BASE_URL/api/device/mcontrol/reboot" \
 - Lists use `POST` with paging: `{"filter":{}, "page_number":1, "page_size":100, "sort_field":"id", "sort_order":"asc"}`. Filter by folder with `{"filter":{"tree_id": <folder id>}}`.
 - When saving screens and playlists, send `tree_id` (the folder).
 - Some fields contain JSON as a string (for example `params_json`, `datetime_json`).
-
-<!-- TODO (Avemeo): link to versioned public API v1 when available -->

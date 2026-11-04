@@ -1,6 +1,6 @@
 # Avemeo – obrazovky, hotelová TV a audio v predajniach, ovládané aj cez AI
 
-**Avemeo** je cloudová platforma, ktorá z jedného miesta riadi obrazovky v predajniach, hotelovú TV, interaktívne menu aj hudbu a spoty v obchodoch. Teraz sa k nej pripojíte aj z AI asistenta, ktorého už používate.
+**Avemeo** je cloudová platforma, ktorá z jedného miesta riadi obrazovky v predajniach, hotelovú TV, interaktívne menu aj hudbu a spoty v obchodoch. Pripravujeme aj pripojenie z AI asistenta, ktorého už používate.
 
 ## Pre koho
 
@@ -19,7 +19,7 @@
 | Prevádzka | vzdialené zapnutie, reštart, hlasitosť, screenshoty, upozornenia na výpadky e-mailom a SMS |
 | Štatistiky | stav zariadení po minútach, čo a kedy sa prehralo, export do CSV |
 
-## Novinka: Avemeo v AI asistentovi
+## Pripravujeme: Avemeo v AI asistentovi
 
 Konektor Avemeo pripojí vaše konto do Claude, ChatGPT, Gemini a ďalších AI nástrojov. Namiesto klikania stačí napísať:
 
@@ -29,7 +29,9 @@ Konektor Avemeo pripojí vaše konto do Claude, ChatGPT, Gemini a ďalších AI 
 
 AI pracuje len s vaším kontom a s oprávneniami, ktoré mu pri prihlásení povolíte. Každú zmenu najprv ukáže na schválenie a dá sa vrátiť. Mazať cez AI nemožno.
 
-Konektor je vo fáze pilotu s vybranými zákazníkmi. <!-- TODO: aktualizovať pri spustení -->
+Pre zákazníkov bez vlastnej AI pripravuje tím Avemeo aj AI asistenta priamo v CMS.
+
+Konektor (adresa `mcp.avemeo.com`, pre Business Stream `mcp.tvstream.sk`) aj asistent v CMS sú vo vývoji, pilot s vybranými zákazníkmi pripravujeme. Záujem o pilot: [avemeo@sortec.sk](mailto:avemeo@sortec.sk).
 
 ## Prečo Avemeo
 

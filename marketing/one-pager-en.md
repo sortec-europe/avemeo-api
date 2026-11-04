@@ -1,6 +1,6 @@
 # Avemeo – screens, hotel TV and in-store audio, now also from your AI assistant
 
-**Avemeo** is a cloud platform that manages in-store screens, hotel TV, interactive menus and in-store music and spots from one place. Now you can also run it from the AI assistant you already use.
+**Avemeo** is a cloud platform that manages in-store screens, hotel TV, interactive menus and in-store music and spots from one place. Coming soon: run it from the AI assistant you already use.
 
 ## Who it is for
 
@@ -19,7 +19,7 @@
 | Operations | remote power, reboot, volume, screenshots, outage alerts by e-mail and SMS |
 | Statistics | per-minute device state, what played and when, CSV export |
 
-## New: Avemeo in your AI assistant
+## Coming soon: Avemeo in your AI assistant
 
 The Avemeo connector links your account to Claude, ChatGPT, Gemini and other AI tools. Instead of clicking, just write:
 
@@ -29,7 +29,9 @@ The Avemeo connector links your account to Claude, ChatGPT, Gemini and other AI 
 
 The assistant works only with your account and the permissions you grant at sign-in. Every change is shown for approval first and can be undone. Deleting through AI is not possible.
 
-The connector is in a pilot phase with selected customers. <!-- TODO: update at launch -->
+For customers without their own AI tool, the Avemeo team is also building an AI assistant directly into the CMS.
+
+The connector (`mcp.avemeo.com`, for Business Stream `mcp.tvstream.sk`) and the CMS assistant are in development; a pilot with selected customers is being prepared. Interested in the pilot: [avemeo@sortec.sk](mailto:avemeo@sortec.sk).
 
 ## Why Avemeo
 

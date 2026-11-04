@@ -1,6 +1,6 @@
 # Use cases: Avemeo with an AI assistant
 
-Examples of what customers do with Avemeo and an AI assistant. Each example lists what the assistant does in Avemeo.
+Examples of what customers will be able to do with Avemeo and an AI assistant once the connector is available. Each example describes what the assistant does in Avemeo.
 
 ## Retail: proof of play and offline players
 

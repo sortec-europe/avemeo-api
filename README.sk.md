@@ -9,11 +9,12 @@
 | Platforma | Avemeo CMS (web), prehrávače na LG, Samsung, Vestel, Android, Raspberry Pi a IPTV boxoch ARRIS VIP4302 |
 | Cloudy | Avemeo (`ds.avemeo.com`) a [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) od Slovak Telekomu (`cloud.tvstream.sk`) |
 | REST API | špecifikácia OpenAPI 3, viac ako 380 operácií – [prehľad](docs/api-overview.md) |
-| AI konektor (MCP) | **Vo vývoji – pilot s vybranými zákazníkmi.** [Podrobnosti](docs/mcp-connector.md) |
+| AI konektor (MCP) | **Vo vývoji – pripravujeme pilot s vybranými zákazníkmi.** [Podrobnosti](docs/mcp-connector.md) |
+| AI asistent v CMS | **Vo vývoji** – tím Avemeo pripravuje aj AI asistenta priamo v Avemeo CMS pre zákazníkov, ktorí nepoužívajú vlastný AI nástroj. |
 
 ## Čo urobíte s Avemeo a AI
 
-Napíšte AI asistentovi bežnou rečou, po slovensky, česky alebo anglicky:
+S konektorom Avemeo budete môcť napísať AI asistentovi bežnou rečou, po slovensky, česky alebo anglicky:
 
 - *„Daj od piatku do playlistu recepcie novú jesennú ponuku, 10 sekúnd na snímku.“*
 - *„Ktoré prehrávače v predajniach boli včera počas otváracích hodín offline?“*
@@ -21,7 +22,7 @@ Napíšte AI asistentovi bežnou rečou, po slovensky, česky alebo anglicky:
 - *„Reštartuj všetky obrazovky v skupine Košice.“*
 - *„Čo práve hrá v izbe 204?“*
 
-Asistent cez konektor Avemeo číta a mení obsah vo **vašom** konte Avemeo, s **vašimi** oprávneniami. Každú zmenu najprv ukáže na schválenie a zapíše do auditu. Pozrite [príklady použitia](docs/use-cases.md).
+Asistent bude čítať a meniť obsah len vo **vašom** konte Avemeo, s **vašimi** oprávneniami. Každú zmenu najprv ukáže na schválenie a zapíše do auditu. Pozrite [príklady použitia](docs/use-cases.md).
 
 ## Čo platforma Avemeo vie
 
@@ -37,7 +38,7 @@ Asistent cez konektor Avemeo číta a mení obsah vo **vašom** konte Avemeo, s 
 ```bash
 BASE_URL=https://cloud.tvstream.sk/backend   # alebo váš cloud Avemeo
 
-# 1. Prihlásenie a získanie tokenu
+# 1. Prihlásenie – odpoveď obsahuje prístupový token (accessKey)
 curl -s -X POST "$BASE_URL/api/auth/login" \
   -H "Content-Type: application/json" \
   -d '{"username":"POUZIVATEL","password":"HESLO"}'
@@ -57,10 +58,16 @@ Celá špecifikácia: `https://<váš-cloud>/backend/openapi/`. Podrobnosti a au
 Konektor Avemeo je vzdialený server [Model Context Protocol](https://modelcontextprotocol.io). Keď bude pre vaše konto dostupný, pridáte ho do AI asistenta raz:
 
 1. V AI asistentovi otvorte nastavenia konektorov (v Claude: **Customize → Connectors → Add custom connector**).
-2. Zadajte adresu konektora Avemeo: `https://mcp.avemeo.com`
+2. Zadajte adresu konektora podľa vášho cloudu:
+   - Avemeo (`ds.avemeo.com`): `https://mcp.avemeo.com`
+   - [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) (`cloud.tvstream.sk`): `https://mcp.tvstream.sk`
 3. Prihláste sa svojím účtom Avemeo a zvoľte, k čomu má asistent prístup.
 
 Stav, nástroje a bezpečnosť: [docs/mcp-connector.md](docs/mcp-connector.md).
+
+## AI asistent v CMS
+
+Nie každý používa vlastný AI nástroj. Tím Avemeo preto pripravuje aj AI asistenta priamo v Avemeo CMS. Bude používať rovnaké nástroje ako konektor, každú zmenu ukáže v CMS na náhľad a uloží ju až po schválení. Stav: vo vývoji.
 
 ## Kontakt
 
@@ -69,4 +76,4 @@ Stav, nástroje a bezpečnosť: [docs/mcp-connector.md](docs/mcp-connector.md).
 
 ---
 
-Repozitár spravuje **SORTEC EUROPE s.r.o.**, distribútor a obchodno-vývojový partner Avemeo a partner pre [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) v Slovak Telekom. Avemeo je produkt spoločnosti Avemeo s.r.o. Dokumentácia je poskytovaná pod licenciou <!-- TODO: licencia, napr. CC BY 4.0 -->.
+Repozitár spravuje **SORTEC EUROPE s.r.o.**, distribútor a obchodno-vývojový partner Avemeo a partner pre [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) v Slovak Telekom. Avemeo je produkt spoločnosti Avemeo s.r.o. Dokumentácia je poskytovaná pod licenciou [CC BY 4.0](LICENSE).

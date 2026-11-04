@@ -1,8 +1,8 @@
 # Avemeo AI connector (MCP)
 
-> **Status: in development.** The connector is being tested with selected pilot customers. This page describes the planned functionality and will be updated at launch. <!-- TODO: update status, date and URL at launch -->
+> **Status: in development.** A pilot with selected customers is being prepared. This page describes the planned functionality and will be updated at launch.
 
-The Avemeo connector is a remote [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server. It lets an AI assistant work with an Avemeo account on behalf of a signed-in user. The customer uses their own AI assistant and subscription; Avemeo provides the connector.
+The Avemeo connector will be a remote [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server. It will let an AI assistant work with an Avemeo account on behalf of a signed-in user. The customer uses their own AI assistant and subscription; Avemeo provides the connector.
 
 ## Supported AI assistants
 
@@ -14,7 +14,12 @@ Any assistant that supports remote MCP servers with OAuth, for example:
 | ChatGPT | Custom connector (developer mode), OAuth sign-in |
 | Gemini CLI, Cursor, VS Code and others | Add a remote MCP server with the connector URL |
 
-Connector URL: `https://mcp.avemeo.com`
+Connector URL (at launch), depending on your cloud:
+
+| Cloud | Connector URL |
+|---|---|
+| Avemeo (`ds.avemeo.com`) | `https://mcp.avemeo.com` |
+| [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) by Slovak Telekom (`cloud.tvstream.sk`) | `https://mcp.tvstream.sk` |
 
 ## Sign-in and permissions
 
@@ -43,6 +48,10 @@ Connector URL: `https://mcp.avemeo.com`
 - Every call is recorded in the audit log with the user and the AI client.
 - The connector only works with the account and permissions chosen at sign-in.
 - Content from Avemeo (names, texts) is treated as data, not as instructions.
+
+## AI assistant in the CMS
+
+The Avemeo team is also developing an AI assistant built directly into the Avemeo CMS, using the same tools as this connector. It is meant for customers who do not use their own AI tool. Status: in development.
 
 ## Pilot program
 
