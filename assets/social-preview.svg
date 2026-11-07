@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="t d">
+  <title id="t">Avemeo API &amp; AI Connector – digital signage, hotel TV and in-store audio from your AI assistant</title>
+  <desc id="d">Social preview image for the sortec-europe/avemeo-api repository.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#132a4a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#7dd3fc"/>
+    </marker>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <path d="M0 80H1280M0 160H1280M0 240H1280M0 320H1280M0 400H1280M0 480H1280M0 560H1280"/>
+    <path d="M160 0V640M320 0V640M480 0V640M640 0V640M800 0V640M960 0V640M1120 0V640"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="80" y="150" font-size="56" font-weight="800" fill="#ffffff" letter-spacing="-1.5">Avemeo API &amp; AI Connector</text>
+    <rect x="80" y="172" width="260" height="8" rx="4" fill="url(#accent)"/>
+    <text x="80" y="232" font-size="30" font-weight="500" fill="#cbd5e1">Digital signage · Hotel TV · In-store audio</text>
+    <text x="80" y="278" font-size="23" fill="#94a3b8">REST API (OpenAPI 3) and MCP connector for Claude, ChatGPT, Gemini</text>
+
+    <!-- Prompt pill -->
+    <g transform="translate(80 330)">
+      <rect width="640" height="76" rx="38" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <circle cx="38" cy="38" r="17" fill="url(#accent)"/>
+      <path d="M31 38l5 5 10-11" fill="none" stroke="#0b1220" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="74" y="47" font-size="24" fill="#e2e8f0" font-style="italic">“Reboot all screens in the Košice group.”</text>
+    </g>
+
+    <!-- Flow diagram -->
+    <g transform="translate(80 450)">
+      <g>
+        <rect width="200" height="84" rx="16" fill="#1e293b" stroke="#334155"/>
+        <text x="100" y="36" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">AI assistant</text>
+        <text x="100" y="62" text-anchor="middle" font-size="14" fill="#94a3b8">Claude · ChatGPT · Gemini</text>
+      </g>
+      <path d="M200 42H262" stroke="#7dd3fc" stroke-width="3" marker-end="url(#arrow)"/>
+      <text x="231" y="28" text-anchor="middle" font-size="13" fill="#7dd3fc">MCP</text>
+      <g transform="translate(268 0)" filter="url(#glow)">
+        <rect width="220" height="84" rx="16" fill="#0ea5e9" fill-opacity="0.18" stroke="#38bdf8"/>
+        <text x="110" y="36" text-anchor="middle" font-size="18" font-weight="700" fill="#e0f2fe">Avemeo connector</text>
+        <text x="110" y="62" text-anchor="middle" font-size="14" fill="#bae6fd">OAuth · approval · audit</text>
+      </g>
+      <path d="M488 42H550" stroke="#7dd3fc" stroke-width="3" marker-end="url(#arrow)"/>
+      <text x="519" y="28" text-anchor="middle" font-size="13" fill="#7dd3fc">REST</text>
+      <g transform="translate(556 0)">
+        <rect width="170" height="84" rx="16" fill="#1e293b" stroke="#334155"/>
+        <text x="85" y="36" text-anchor="middle" font-size="18" font-weight="700" fill="#f1f5f9">Avemeo cloud</text>
+        <text x="85" y="62" text-anchor="middle" font-size="14" fill="#94a3b8">CMS · players</text>
+      </g>
+    </g>
+
+    <!-- Device cards on the right -->
+    <g transform="translate(920 120)">
+      <g>
+        <rect width="300" height="110" rx="14" fill="#1e293b" stroke="#334155"/>
+        <rect x="24" y="22" width="110" height="62" rx="5" fill="#0b1220" stroke="#64748b"/>
+        <rect x="34" y="32" width="56" height="10" rx="2" fill="#34d399"/>
+        <rect x="34" y="50" width="90" height="8" rx="2" fill="#38bdf8"/>
+        <rect x="34" y="66" width="70" height="8" rx="2" fill="#475569"/>
+        <text x="156" y="52" font-size="18" font-weight="700" fill="#f1f5f9">Signage</text>
+        <text x="156" y="78" font-size="13" fill="#94a3b8">screens &amp; menu boards</text>
+      </g>
+      <g transform="translate(0 130)">
+        <rect width="300" height="110" rx="14" fill="#1e293b" stroke="#334155"/>
+        <rect x="24" y="22" width="110" height="62" rx="5" fill="#0b1220" stroke="#64748b"/>
+        <circle cx="54" cy="53" r="15" fill="none" stroke="#34d399" stroke-width="3.5"/>
+        <rect x="78" y="38" width="46" height="8" rx="2" fill="#e2e8f0"/>
+        <rect x="78" y="54" width="36" height="8" rx="2" fill="#475569"/>
+        <rect x="78" y="68" width="30" height="8" rx="2" fill="#475569"/>
+        <text x="156" y="52" font-size="18" font-weight="700" fill="#f1f5f9">Hotel TV</text>
+        <text x="156" y="78" font-size="13" fill="#94a3b8">live TV, guest menu, apps</text>
+      </g>
+      <g transform="translate(0 260)">
+        <rect width="300" height="110" rx="14" fill="#1e293b" stroke="#334155"/>
+        <g transform="translate(40 26)" fill="#34d399">
+          <rect x="0" y="20" width="7" height="22" rx="3.5"/>
+          <rect x="13" y="8" width="7" height="46" rx="3.5"/>
+          <rect x="26" y="0" width="7" height="62" rx="3.5"/>
+          <rect x="39" y="14" width="7" height="34" rx="3.5"/>
+          <rect x="52" y="24" width="7" height="14" rx="3.5"/>
+          <rect x="65" y="6" width="7" height="50" rx="3.5"/>
+          <rect x="78" y="18" width="7" height="26" rx="3.5"/>
+        </g>
+        <text x="156" y="52" font-size="18" font-weight="700" fill="#f1f5f9">In-store audio</text>
+        <text x="156" y="78" font-size="13" fill="#94a3b8">music, spots, reporting</text>
+      </g>
+    </g>
+
+    <text x="80" y="596" font-size="16" fill="#64748b">github.com/sortec-europe/avemeo-api · maintained by SORTEC EUROPE s.r.o. · Avemeo is a product of Avemeo s.r.o.</text>
+  </g>
+</svg>

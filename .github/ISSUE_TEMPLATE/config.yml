@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Join the AI connector pilot
+    url: mailto:avemeo@sortec.sk?subject=Avemeo%20AI%20connector%20pilot
+    about: Interested in testing the Avemeo AI connector with your screens? Write to us with your industry, number of devices and the AI assistant you use.
+  - name: Report a security vulnerability
+    url: https://github.com/sortec-europe/avemeo-api/blob/main/SECURITY.md
+    about: Please report security issues privately as described in SECURITY.md, not as a public issue.
+  - name: Avemeo website
+    url: https://avemeo.sk
+    about: Product information, demos and contact.

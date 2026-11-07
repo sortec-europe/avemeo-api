@@ -1,0 +1,39 @@
+name: Documentation issue
+description: Report an error, outdated information or something unclear in the documentation.
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the Avemeo API and AI connector documentation. Please do **not** report security vulnerabilities here – see [SECURITY.md](https://github.com/sortec-europe/avemeo-api/blob/main/SECURITY.md).
+  - type: input
+    id: page
+    attributes:
+      label: Page or file
+      description: Which file or section is affected?
+      placeholder: docs/api-overview.md – Authentication
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or unclear?
+      description: Quote the text if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+      description: How should it read instead? (optional)
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language version
+      options:
+        - English
+        - Slovensky
+        - Both
+    validations:
+      required: true

@@ -1,0 +1,47 @@
+# Avemeo API & AI Connector (MCP)
+
+> Avemeo is a cloud platform (CMS) for digital signage, hotel TV (hospitality IPTV) and in-store audio/video, developed by Avemeo s.r.o. This repository documents the Avemeo REST API (OpenAPI 3, 380+ operations) and the Avemeo AI connector – a remote Model Context Protocol (MCP) server that lets Claude, ChatGPT, Gemini and other MCP-compatible AI assistants manage screens, playlists, schedulers and players with the user's permissions and approval before every change. Maintained by SORTEC EUROPE s.r.o., distributor and business & development partner of Avemeo in Slovakia.
+
+Key facts:
+
+- Clouds: Avemeo (ds.avemeo.com) and Business Stream by Slovak Telekom (cloud.tvstream.sk). Business Stream is a Slovak Telekom service that runs on the Avemeo platform.
+- REST API: same API the Avemeo CMS uses; OpenAPI 3 specification at https://<cloud>/backend/openapi/; server base path /backend; sign in with POST /api/auth/login (returns {"status":"success","data":{"accessToken":"<JWT>"}}), then send Authorization: Bearer <token> and Active-Profile-Id: <account id>; remote device control uses an api-key header.
+- AI connector (MCP): remote MCP server with OAuth sign-in; connector URLs at launch: https://mcp.avemeo.com/mcp (Avemeo cloud) and https://mcp.tvstream.sk/mcp (Business Stream). Status: in development, pilot with selected customers being prepared (November 2026).
+- Safety model: user signs in with OAuth and chooses account and access level; every change is prepared as a plan and applied only after the user approves; deleting through AI is not available; every call is written to an audit log; content from Avemeo is treated as data, not instructions.
+- Supported players: LG (webOS), Samsung and Vestel commercial displays; Android players and TVs; Raspberry Pi; ARRIS VIP4302 IPTV set-top boxes.
+- Platform features: visual screen editor with widgets, templates, playlists, schedulers (weekdays, times, date ranges, holidays), interactive multi-level menus, multilingual content, hotel TV with live HLS channels and EPG, guest name and room, PMS check-in/check-out integration, Netflix/YouTube/Chromecast apps, in-store audio with proof of play, device management (power, reload, reboot, volume, screenshots, offline alerts by e-mail and SMS), kiosks, queue systems, digital menu boards.
+- Languages: prompts in Slovak, Czech or English; multilingual on-screen content.
+- An AI assistant built into the Avemeo CMS is also in development for customers without their own AI tool.
+- Contact and pilot program: avemeo@sortec.sk; website avemeo.sk.
+- Documentation license: CC BY 4.0. Avemeo is a trademark of Avemeo s.r.o.; Business Stream is a service of Slovak Telekom, a.s.
+
+## Documentation (English)
+
+- [README](https://github.com/sortec-europe/avemeo-api/blob/main/README.md): overview, quick start for the REST API and the AI connector, FAQ, contact
+- [REST API overview](https://github.com/sortec-europe/avemeo-api/blob/main/docs/api-overview.md): specification location, authentication, response format, main areas, examples, conventions
+- [AI connector (MCP)](https://github.com/sortec-europe/avemeo-api/blob/main/docs/mcp-connector.md): how it works, supported assistants, sign-in and permissions, planned tools, security, FAQ, pilot
+- [Use cases](https://github.com/sortec-europe/avemeo-api/blob/main/docs/use-cases.md): retail, hotels, offices, operations, content production, developers
+- [FAQ](https://github.com/sortec-europe/avemeo-api/blob/main/docs/faq.md): frequently asked questions about Avemeo, the API and the connector
+- [Glossary](https://github.com/sortec-europe/avemeo-api/blob/main/docs/glossary.md): definitions of digital signage, hotel TV, Avemeo and MCP terms
+
+## Dokumentácia (slovensky)
+
+- [README.sk](https://github.com/sortec-europe/avemeo-api/blob/main/README.sk.md): prehľad, rýchly štart REST API a AI konektora, FAQ, kontakt
+- [Prehľad REST API](https://github.com/sortec-europe/avemeo-api/blob/main/docs/sk/api-overview.md)
+- [AI konektor (MCP)](https://github.com/sortec-europe/avemeo-api/blob/main/docs/sk/mcp-connector.md)
+- [Príklady použitia](https://github.com/sortec-europe/avemeo-api/blob/main/docs/sk/use-cases.md)
+- [Často kladené otázky](https://github.com/sortec-europe/avemeo-api/blob/main/docs/sk/faq.md)
+- [Slovník pojmov](https://github.com/sortec-europe/avemeo-api/blob/main/docs/sk/glossary.md)
+
+## Marketing
+
+- [One-pager (EN)](https://github.com/sortec-europe/avemeo-api/blob/main/marketing/one-pager-en.md)
+- [One-pager (SK)](https://github.com/sortec-europe/avemeo-api/blob/main/marketing/one-pager-sk.md)
+- [Press release template (EN)](https://github.com/sortec-europe/avemeo-api/blob/main/marketing/press-release-en.md)
+- [Šablóna tlačovej správy (SK)](https://github.com/sortec-europe/avemeo-api/blob/main/marketing/tlacova-sprava-sk.md)
+
+## Optional
+
+- [Model Context Protocol](https://modelcontextprotocol.io): the open standard the AI connector implements
+- [Business Stream by Slovak Telekom](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream): the Telekom service running on Avemeo
+- [CHANGELOG](https://github.com/sortec-europe/avemeo-api/blob/main/CHANGELOG.md), [CONTRIBUTING](https://github.com/sortec-europe/avemeo-api/blob/main/CONTRIBUTING.md), [SECURITY](https://github.com/sortec-europe/avemeo-api/blob/main/SECURITY.md)
