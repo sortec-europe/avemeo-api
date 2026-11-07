@@ -6,6 +6,7 @@ Ready-to-use texts about Avemeo, the REST API and the AI connector. Licensed und
 |---|---|---|
 | [one-pager-en.md](one-pager-en.md) | English | One-page product overview for customers and partners |
 | [one-pager-sk.md](one-pager-sk.md) | Slovensky | Jednostranový prehľad produktu pre zákazníkov a partnerov |
+| [one-pager-cs.md](one-pager-cs.md) | Česky | Jednostránkový přehled produktu pro zákazníky a partnery |
 | [press-release-en.md](press-release-en.md) | English | Press release template for the AI connector launch (fill in the TODOs) |
 | [tlacova-sprava-sk.md](tlacova-sprava-sk.md) | Slovensky | Šablóna tlačovej správy k spusteniu AI konektora (doplniť TODO) |
 

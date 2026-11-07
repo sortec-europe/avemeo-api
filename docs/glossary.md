@@ -1,6 +1,6 @@
 # Glossary – digital signage, hotel TV, Avemeo and MCP terms
 
-> 🇸🇰 Slovenská verzia: [sk/glossary.md](sk/glossary.md) · ⬅ Back to [README](../README.md)
+> 🇸🇰 Slovenská verzia: [sk/glossary.md](sk/glossary.md) · 🇨🇿 Česká verze: [cs/glossary.md](cs/glossary.md) · ⬅ Back to [README](../README.md)
 
 Short definitions of the terms used in this documentation, in the Avemeo CMS and in the AI connector. Alphabetical.
 

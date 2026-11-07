@@ -1,6 +1,6 @@
 # Často kladené otázky – Avemeo, REST API a AI konektor
 
-> 🇬🇧 English version: [../faq.md](../faq.md) · ⬅ Späť na [README](../../README.sk.md)
+> 🇬🇧 English version: [../faq.md](../faq.md) · 🇨🇿 Česká verze: [../cs/faq.md](../cs/faq.md) · ⬅ Späť na [README](../../README.sk.md)
 
 **Obsah:** [O Avemeo](#o-avemeo) · [REST API](#rest-api) · [AI konektor (MCP)](#ai-konektor-mcp) · [Bezpečnosť a dáta](#bezpečnosť-a-dáta) · [Pilot, cena a kontakt](#pilot-cena-a-kontakt)
 

@@ -1,6 +1,6 @@
 # AI konektor Avemeo (MCP) – správa digital signage a hotelovej TV z Claude, ChatGPT alebo Gemini
 
-> 🇬🇧 English version: [../mcp-connector.md](../mcp-connector.md) · ⬅ Späť na [README](../../README.sk.md)
+> 🇬🇧 English version: [../mcp-connector.md](../mcp-connector.md) · 🇨🇿 Česká verze: [../cs/mcp-connector.md](../cs/mcp-connector.md) · ⬅ Späť na [README](../../README.sk.md)
 
 > **Stav: vo vývoji.** Pripravuje sa pilot s vybranými zákazníkmi. Táto stránka opisuje plánovanú funkčnosť a pri spustení bude aktualizovaná. Máte záujem o pilot? Napíšte na [avemeo@sortec.sk](mailto:avemeo@sortec.sk).
 

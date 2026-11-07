@@ -1,6 +1,6 @@
 # Príklady použitia: Avemeo s AI asistentom
 
-> 🇬🇧 English version: [../use-cases.md](../use-cases.md) · ⬅ Späť na [README](../../README.sk.md)
+> 🇬🇧 English version: [../use-cases.md](../use-cases.md) · 🇨🇿 Česká verze: [../cs/use-cases.md](../cs/use-cases.md) · ⬅ Späť na [README](../../README.sk.md)
 
 Čo budú zákazníci môcť robiť s Avemeo a AI asistentom (Claude, ChatGPT, Gemini a ďalší MCP klienti), keď bude dostupný [AI konektor](mcp-connector.md). Každý príklad ukazuje, čo poviete, čo asistent urobí v Avemeo a čo schvaľujete. Rovnaké operácie majú vývojári k dispozícii cez [REST API](api-overview.md).
 

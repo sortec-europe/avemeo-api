@@ -2,6 +2,12 @@
 
 Notable changes to this documentation repository. Dates are in ISO format (YYYY-MM-DD).
 
+## 2026-11-07 (2)
+
+### Added
+
+- Czech version of the repository: `README.cs.md`, `docs/cs/` (API overview, AI connector, use cases, FAQ, glossary, index) and `marketing/one-pager-cs.md`; language switches and `llms.txt` updated.
+
 ## 2026-11-07
 
 ### Added

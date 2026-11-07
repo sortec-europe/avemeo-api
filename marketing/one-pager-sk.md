@@ -1,6 +1,6 @@
 # Avemeo – obrazovky, hotelová TV a audio v predajniach, ovládané aj cez AI
 
-> 🇬🇧 English version: [one-pager-en.md](one-pager-en.md) · Dokumentácia: [github.com/sortec-europe/avemeo-api](https://github.com/sortec-europe/avemeo-api)
+> 🇬🇧 English version: [one-pager-en.md](one-pager-en.md) · 🇨🇿 Česká verze: [one-pager-cs.md](one-pager-cs.md) · Dokumentácia: [github.com/sortec-europe/avemeo-api](https://github.com/sortec-europe/avemeo-api)
 
 **Avemeo** je cloudová platforma, ktorá z jedného miesta riadi obrazovky v predajniach, hotelovú TV, interaktívne menu aj hudbu a spoty v obchodoch. Pripravujeme aj pripojenie z AI asistenta, ktorého už používate – Claude, ChatGPT, Gemini a ďalších.
 
