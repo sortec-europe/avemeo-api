@@ -15,10 +15,11 @@
   <a href="https://modelcontextprotocol.io"><img alt="Model Context Protocol: remote server with OAuth" src="https://img.shields.io/badge/MCP-remote%20server%20%C2%B7%20OAuth-7c3aed"></a>
   <a href="LICENSE"><img alt="Documentation license: CC BY 4.0" src="https://img.shields.io/badge/docs%20license-CC%20BY%204.0-lightgrey"></a>
   <a href="README.sk.md"><img alt="Slovenská verzia" src="https://img.shields.io/badge/%F0%9F%87%B8%F0%9F%87%B0-slovensk%C3%A1%20verzia-16a34a"></a>
+  <a href="README.cs.md"><img alt="Česká verze" src="https://img.shields.io/badge/%F0%9F%87%A8%F0%9F%87%BF-%C4%8Desk%C3%A1%20verze-16a34a"></a>
   <img alt="Last updated: November 2026" src="https://img.shields.io/badge/updated-November%202026-informational">
 </p>
 
-> 🇸🇰 **Slovenská verzia:** [README.sk.md](README.sk.md) · 📄 **Machine-readable summary for AI tools:** [llms.txt](llms.txt)
+> 🇸🇰 **Slovenská verzia:** [README.sk.md](README.sk.md) · 🇨🇿 **Česká verze:** [README.cs.md](README.cs.md) · 📄 **Machine-readable summary for AI tools:** [llms.txt](llms.txt)
 
 ## Table of contents
 
@@ -242,8 +243,8 @@ More questions and answers: [docs/faq.md](docs/faq.md).
 | [docs/use-cases.md](docs/use-cases.md) | What you can do with Avemeo and an AI assistant – retail, hotels, offices, operations |
 | [docs/faq.md](docs/faq.md) | Frequently asked questions |
 | [docs/glossary.md](docs/glossary.md) | Glossary: digital signage, proof of play, MCP, scheduler, widget… |
-| [docs/sk/](docs/sk/) | 🇸🇰 Slovak versions of the documentation |
-| [marketing/](marketing/) | One-pagers (EN, SK) and press release templates |
+| [docs/sk/](docs/sk/) · [docs/cs/](docs/cs/) | 🇸🇰 Slovak and 🇨🇿 Czech versions of the documentation |
+| [marketing/](marketing/) | One-pagers (EN, SK, CS) and press release templates |
 | [llms.txt](llms.txt) | Machine-readable summary of this repository for AI tools |
 | [CHANGELOG.md](CHANGELOG.md) · [CONTRIBUTING.md](CONTRIBUTING.md) · [SECURITY.md](SECURITY.md) | Changes, how to contribute, how to report a security issue |
 

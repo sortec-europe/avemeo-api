@@ -5,7 +5,7 @@
 ## Checklist
 
 - [ ] Facts verified on an Avemeo cloud or confirmed by the Avemeo team; planned functionality marked as *planned* / *in development*
-- [ ] English and Slovak versions updated (or the gap noted below)
+- [ ] English, Slovak and Czech versions updated (or the gap noted below)
 - [ ] No secrets, tokens, device IDs or customer data
 - [ ] Internal links work
 - [ ] `CHANGELOG.md` updated

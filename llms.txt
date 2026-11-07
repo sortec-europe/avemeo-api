@@ -33,10 +33,20 @@ Key facts:
 - [Často kladené otázky](https://github.com/sortec-europe/avemeo-api/blob/main/docs/sk/faq.md)
 - [Slovník pojmov](https://github.com/sortec-europe/avemeo-api/blob/main/docs/sk/glossary.md)
 
+## Dokumentace (česky)
+
+- [README.cs](https://github.com/sortec-europe/avemeo-api/blob/main/README.cs.md): přehled, rychlý start REST API a AI konektoru, FAQ, kontakt
+- [Přehled REST API](https://github.com/sortec-europe/avemeo-api/blob/main/docs/cs/api-overview.md)
+- [AI konektor (MCP)](https://github.com/sortec-europe/avemeo-api/blob/main/docs/cs/mcp-connector.md)
+- [Příklady použití](https://github.com/sortec-europe/avemeo-api/blob/main/docs/cs/use-cases.md)
+- [Často kladené otázky](https://github.com/sortec-europe/avemeo-api/blob/main/docs/cs/faq.md)
+- [Slovník pojmů](https://github.com/sortec-europe/avemeo-api/blob/main/docs/cs/glossary.md)
+
 ## Marketing
 
 - [One-pager (EN)](https://github.com/sortec-europe/avemeo-api/blob/main/marketing/one-pager-en.md)
 - [One-pager (SK)](https://github.com/sortec-europe/avemeo-api/blob/main/marketing/one-pager-sk.md)
+- [One-pager (CS)](https://github.com/sortec-europe/avemeo-api/blob/main/marketing/one-pager-cs.md)
 - [Press release template (EN)](https://github.com/sortec-europe/avemeo-api/blob/main/marketing/press-release-en.md)
 - [Šablóna tlačovej správy (SK)](https://github.com/sortec-europe/avemeo-api/blob/main/marketing/tlacova-sprava-sk.md)
 

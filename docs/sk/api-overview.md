@@ -1,6 +1,6 @@
 # Avemeo REST API – prehľad
 
-> 🇬🇧 English version: [../api-overview.md](../api-overview.md) · ⬅ Späť na [README](../../README.sk.md)
+> 🇬🇧 English version: [../api-overview.md](../api-overview.md) · 🇨🇿 Česká verze: [../cs/api-overview.md](../cs/api-overview.md) · ⬅ Späť na [README](../../README.sk.md)
 
 **Avemeo REST API** je programové rozhranie cloudovej platformy Avemeo pre digital signage, hotelovú TV a audio v predajniach. Je to **to isté API, ktoré používa webová aplikácia Avemeo CMS**, takže všetko, čo urobíte v CMS – médiá, obrazovky, playlisty, plánovače, zariadenia, diaľkové ovládanie, štatistiky – viete urobiť aj z vlastného softvéru. Popisuje ho špecifikácia **OpenAPI 3** zverejnená na každom cloude Avemeo.
 

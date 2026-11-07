@@ -1,6 +1,6 @@
 # Avemeo – digital signage, hotel TV and in-store audio, now also from your AI assistant
 
-> 🇸🇰 Slovenská verzia: [one-pager-sk.md](one-pager-sk.md) · Documentation: [github.com/sortec-europe/avemeo-api](https://github.com/sortec-europe/avemeo-api)
+> 🇸🇰 Slovenská verzia: [one-pager-sk.md](one-pager-sk.md) · 🇨🇿 Česká verze: [one-pager-cs.md](one-pager-cs.md) · Documentation: [github.com/sortec-europe/avemeo-api](https://github.com/sortec-europe/avemeo-api)
 
 **Avemeo** is a cloud platform that manages in-store screens, hotel TV, interactive menus and in-store music and spots from one place. Coming soon: run it from the AI assistant you already use – Claude, ChatGPT, Gemini and others.
 

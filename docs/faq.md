@@ -1,6 +1,6 @@
 # Frequently asked questions – Avemeo, REST API and AI connector
 
-> 🇸🇰 Slovenská verzia: [sk/faq.md](sk/faq.md) · ⬅ Back to [README](../README.md)
+> 🇸🇰 Slovenská verzia: [sk/faq.md](sk/faq.md) · 🇨🇿 Česká verze: [cs/faq.md](cs/faq.md) · ⬅ Back to [README](../README.md)
 
 **Contents:** [About Avemeo](#about-avemeo) · [REST API](#rest-api) · [AI connector (MCP)](#ai-connector-mcp) · [Security and data](#security-and-data) · [Pilot, pricing and contact](#pilot-pricing-and-contact)
 

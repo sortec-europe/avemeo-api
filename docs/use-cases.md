@@ -1,6 +1,6 @@
 # Use cases: Avemeo with an AI assistant
 
-> 🇸🇰 Slovenská verzia: [sk/use-cases.md](sk/use-cases.md) · ⬅ Back to [README](../README.md)
+> 🇸🇰 Slovenská verzia: [sk/use-cases.md](sk/use-cases.md) · 🇨🇿 Česká verze: [cs/use-cases.md](cs/use-cases.md) · ⬅ Back to [README](../README.md)
 
 What customers will be able to do with Avemeo and an AI assistant (Claude, ChatGPT, Gemini and other MCP clients) once the [AI connector](mcp-connector.md) is available. Each example shows what you say, what the assistant does in Avemeo and what you approve. The same operations are available to developers through the [REST API](api-overview.md).
 

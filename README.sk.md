@@ -15,10 +15,11 @@
   <a href="https://modelcontextprotocol.io"><img alt="Model Context Protocol: vzdialený server s OAuth" src="https://img.shields.io/badge/MCP-vzdialen%C3%BD%20server%20%C2%B7%20OAuth-7c3aed"></a>
   <a href="LICENSE"><img alt="Licencia dokumentácie: CC BY 4.0" src="https://img.shields.io/badge/licencia%20dokument%C3%A1cie-CC%20BY%204.0-lightgrey"></a>
   <a href="README.md"><img alt="English version" src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7-English%20version-16a34a"></a>
+  <a href="README.cs.md"><img alt="Česká verze" src="https://img.shields.io/badge/%F0%9F%87%A8%F0%9F%87%BF-%C4%8Desk%C3%A1%20verze-16a34a"></a>
   <img alt="Aktualizované: november 2026" src="https://img.shields.io/badge/aktualizovan%C3%A9-november%202026-informational">
 </p>
 
-> 🇬🇧 **English version:** [README.md](README.md) · 📄 **Strojovo čitateľné zhrnutie pre AI nástroje:** [llms.txt](llms.txt)
+> 🇬🇧 **English version:** [README.md](README.md) · 🇨🇿 **Česká verze:** [README.cs.md](README.cs.md) · 📄 **Strojovo čitateľné zhrnutie pre AI nástroje:** [llms.txt](llms.txt)
 
 ## Obsah
 
@@ -242,8 +243,8 @@ SORTEC EUROPE s.r.o., distribútor a obchodno-vývojový partner Avemeo na Slove
 | [docs/sk/use-cases.md](docs/sk/use-cases.md) | Čo urobíte s Avemeo a AI asistentom – retail, hotely, firmy, prevádzka |
 | [docs/sk/faq.md](docs/sk/faq.md) | Často kladené otázky |
 | [docs/sk/glossary.md](docs/sk/glossary.md) | Slovník pojmov: digital signage, proof of play, MCP, plánovač, widget… |
-| [docs/](docs/) | 🇬🇧 anglické verzie dokumentácie |
-| [marketing/](marketing/) | One-pagery (SK, EN) a šablóny tlačovej správy |
+| [docs/](docs/) · [docs/cs/](docs/cs/) | 🇬🇧 anglické a 🇨🇿 české verzie dokumentácie |
+| [marketing/](marketing/) | One-pagery (SK, CS, EN) a šablóny tlačovej správy |
 | [llms.txt](llms.txt) | Strojovo čitateľné zhrnutie repozitára pre AI nástroje |
 | [CHANGELOG.md](CHANGELOG.md) · [CONTRIBUTING.md](CONTRIBUTING.md) · [SECURITY.md](SECURITY.md) | Zmeny, ako prispieť, ako nahlásiť bezpečnostný problém |
 

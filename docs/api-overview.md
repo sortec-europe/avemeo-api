@@ -1,6 +1,6 @@
 # Avemeo REST API – overview
 
-> 🇸🇰 Slovenská verzia: [sk/api-overview.md](sk/api-overview.md) · ⬅ Back to [README](../README.md)
+> 🇸🇰 Slovenská verzia: [sk/api-overview.md](sk/api-overview.md) · 🇨🇿 Česká verze: [cs/api-overview.md](cs/api-overview.md) · ⬅ Back to [README](../README.md)
 
 The **Avemeo REST API** is the programming interface of the Avemeo cloud platform for digital signage, hotel TV and in-store audio. It is the **same API the Avemeo CMS web application uses**, so everything you can do in the CMS – media, screens, playlists, schedulers, devices, remote control, statistics – can also be done from your own software. It is described by an **OpenAPI 3** specification published on every Avemeo cloud.
 

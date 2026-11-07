@@ -1,6 +1,6 @@
 # Avemeo AI connector (MCP) – manage digital signage and hotel TV from Claude, ChatGPT or Gemini
 
-> 🇸🇰 Slovenská verzia: [sk/mcp-connector.md](sk/mcp-connector.md) · ⬅ Back to [README](../README.md)
+> 🇸🇰 Slovenská verzia: [sk/mcp-connector.md](sk/mcp-connector.md) · 🇨🇿 Česká verze: [cs/mcp-connector.md](cs/mcp-connector.md) · ⬅ Back to [README](../README.md)
 
 > **Status: in development.** A pilot with selected customers is being prepared. This page describes the planned functionality and will be updated at launch. Interested in the pilot? Write to [avemeo@sortec.sk](mailto:avemeo@sortec.sk).
 
