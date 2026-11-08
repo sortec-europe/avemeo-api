@@ -113,11 +113,11 @@ Everything above runs on the Avemeo REST API, which you can also call directly:
 | Integration | How |
 |---|---|
 | **Hotel PMS → TV** | Avemeo's hotel TV integrates with hotel systems for check-in and check-out (guest name, room, messages); ask us about the integration options for your PMS. |
-| **ERP → price lists** | Nightly job that updates price texts on menu-board screens (`/api/screen/widgets/update`). |
-| **Monitoring → ticketing** | Poll device states (`/api/stats/device`, `/api/device`) and open a ticket when a device is offline for more than N minutes. |
-| **Marketing → campaigns** | Create playlists and schedulers for a campaign from your campaign tool (`/api/playlist/update`, `/api/scheduler/update`). |
+| **ERP → price lists** | Nightly job that updates price texts on menu-board screens. |
+| **Monitoring → ticketing** | Poll device states and open a ticket when a device is offline for more than N minutes. |
+| **Marketing → campaigns** | Create playlists and schedulers for a campaign from your campaign tool. |
 
-See the [REST API overview](api-overview.md) for authentication and examples.
+The technical documentation of the API is provided to customers and integrators on request – see the [REST API overview](api-overview.md).
 
 ## Related
 

@@ -113,11 +113,11 @@ Vše výše běží na Avemeo REST API, které můžete volat i přímo:
 | Integrace | Jak |
 |---|---|
 | **Hotelový PMS → TV** | Hotelová TV Avemeo se integruje s hotelovými systémy při check-inu a check-outu (jméno hosta, pokoj, zprávy); zeptejte se nás na možnosti integrace s vaším PMS. |
-| **ERP → ceníky** | Noční úloha, která aktualizuje texty cen na obrazovkách digitálního menu (`/api/screen/widgets/update`). |
-| **Monitoring → ticketing** | Dotazování stavů zařízení (`/api/stats/device`, `/api/device`) a založení tiketu, když je zařízení offline déle než N minut. |
-| **Marketing → kampaně** | Vytvoření playlistů a plánovačů pro kampaň z vašeho kampaňového nástroje (`/api/playlist/update`, `/api/scheduler/update`). |
+| **ERP → ceníky** | Noční úloha, která aktualizuje texty cen na obrazovkách digitálního menu. |
+| **Monitoring → ticketing** | Dotazování stavů zařízení a založení tiketu, když je zařízení offline déle než N minut. |
+| **Marketing → kampaně** | Vytvoření playlistů a plánovačů pro kampaň z vašeho kampaňového nástroje. |
 
-Autentizaci a příklady najdete v [přehledu REST API](api-overview.md).
+Technická dokumentace API se poskytuje zákazníkům a integrátorům na vyžádání – viz [přehled REST API](api-overview.md).
 
 ## Související
 

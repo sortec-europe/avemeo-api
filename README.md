@@ -11,7 +11,7 @@
 
 <p>
   <a href="docs/mcp-connector.md"><img alt="AI connector: in development – pilot being prepared" src="https://img.shields.io/badge/AI%20connector-in%20development%20%C2%B7%20pilot-orange"></a>
-  <a href="docs/api-overview.md"><img alt="REST API: OpenAPI 3, 380+ operations" src="https://img.shields.io/badge/REST%20API-OpenAPI%203%20%C2%B7%20380%2B%20operations-0ea5e9"></a>
+  <a href="docs/api-overview.md"><img alt="REST API: available to customers, v2 in preparation" src="https://img.shields.io/badge/REST%20API-for%20customers%20%C2%B7%20v2%20in%20preparation-0ea5e9"></a>
   <a href="https://modelcontextprotocol.io"><img alt="Model Context Protocol: remote server with OAuth" src="https://img.shields.io/badge/MCP-remote%20server%20%C2%B7%20OAuth-7c3aed"></a>
   <a href="LICENSE"><img alt="Documentation license: CC BY 4.0" src="https://img.shields.io/badge/docs%20license-CC%20BY%204.0-lightgrey"></a>
   <a href="README.sk.md"><img alt="Slovenská verzia" src="https://img.shields.io/badge/%F0%9F%87%B8%F0%9F%87%B0-slovensk%C3%A1%20verzia-16a34a"></a>
@@ -45,7 +45,7 @@
 |---|---|
 | **Product** | Avemeo – cloud CMS for digital signage, hotel TV and in-store audio/video |
 | **Clouds** | Avemeo (`ds.avemeo.com`) · [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) by Slovak Telekom (`cloud.tvstream.sk`) |
-| **REST API** | OpenAPI 3 specification, 380+ operations, the same API the Avemeo CMS uses → [API overview](docs/api-overview.md) |
+| **REST API** | The same API the Avemeo CMS uses; technical documentation for customers and integrators on request, API v2 in preparation → [API overview](docs/api-overview.md) |
 | **AI connector (MCP)** | Remote MCP server with OAuth sign-in for Claude, ChatGPT, Gemini, Cursor, VS Code and other MCP clients → [Connector details](docs/mcp-connector.md) · **Status: in development, pilot with selected customers being prepared** |
 | **AI assistant in the CMS** | Built-in assistant inside the Avemeo CMS for customers without their own AI tool · **Status: in development** |
 | **Players** | LG (webOS), Samsung and Vestel displays · Android players · Raspberry Pi · ARRIS VIP4302 IPTV set-top boxes |
@@ -123,7 +123,7 @@ More scenarios for retail, hotels, offices and operations: [Use cases](docs/use-
 - **In-store audio and video** – music and spots on shuffle, campaigns per store or group, proof-of-play statistics per device, screen and media file with CSV export.
 - **Device management** – power on/off, reload, reboot, volume, TV channel, screenshots, online/offline monitoring with e-mail and SMS alerts.
 - **Self-service and more** – hotel kiosk, queue management (calling system), quizzes, digital menu boards, congress and event wayfinding.
-- **Open REST API** – documented OpenAPI 3 specification for integrations and automation.
+- **REST API** – integrations and automation for customers and integrators (documentation on request).
 
 ## Supported players and displays
 
@@ -138,25 +138,9 @@ More scenarios for retail, hotels, offices and operations: [Use cases](docs/use-
 
 ## Quick start: REST API
 
-The Avemeo REST API is the same API the Avemeo CMS web application uses. It is described by an **OpenAPI 3** specification published on every Avemeo cloud at `https://<your-cloud>/backend/openapi/`.
+Avemeo has a REST API – the same interface the Avemeo CMS uses – covering media, screens, playlists, schedulers, devices, remote control and statistics. The technical documentation (OpenAPI 3 specification, authentication, examples) is provided to **customers and integrators after sign-in and on request**, not publicly, because the current API was designed for the CMS. A new API v2 with its own documentation is in preparation.
 
-```bash
-BASE_URL=https://cloud.tvstream.sk/backend   # Business Stream – or https://ds.avemeo.com/backend for the Avemeo cloud
-
-# 1. Sign in – the response is {"status":"success","data":{"accessToken":"…"}}
-curl -s -X POST "$BASE_URL/api/auth/login" \
-  -H "Content-Type: application/json" \
-  -d '{"username":"YOUR_USER","password":"YOUR_PASSWORD"}'
-
-# 2. List playlists of your account
-curl -s -X POST "$BASE_URL/api/playlist" \
-  -H "Authorization: Bearer $TOKEN" \
-  -H "Active-Profile-Id: $ACCOUNT_ID" \
-  -H "Content-Type: application/json" \
-  -d '{"filter":{},"page_number":1,"page_size":100,"sort_field":"id","sort_order":"asc"}'
-```
-
-Authentication, main API areas (folders, media, screens, playlists, schedulers, devices, remote control, statistics) and more examples: **[docs/api-overview.md](docs/api-overview.md)**.
+Integrators: write to [avemeo@sortec.sk](mailto:avemeo@sortec.sk). Overview and typical integrations: **[docs/api-overview.md](docs/api-overview.md)**.
 
 ## Quick start: AI connector (MCP)
 
@@ -190,7 +174,7 @@ Supported assistants, planned tools, permissions and security details: **[docs/m
 | Component | Status (November 2026) |
 |---|---|
 | Avemeo platform and CMS | ✅ In production on both clouds |
-| REST API (OpenAPI 3) | ✅ Available to Avemeo customers on every cloud |
+| REST API | ✅ Available to Avemeo customers and integrators (documentation on request) · API v2 in preparation |
 | AI connector (remote MCP server) | 🚧 In development – pilot with selected customers being prepared |
 | AI assistant built into the Avemeo CMS | 🚧 In development |
 | Change history and undo through AI | 📋 Planned |
@@ -205,8 +189,8 @@ Avemeo is a cloud platform (CMS) for digital signage, hotel TV and in-store audi
 **What is the difference between Avemeo and Business Stream?**
 Business Stream is a digital signage and hotel TV service of Slovak Telekom. It runs on the Avemeo platform in its own cloud (`cloud.tvstream.sk`). The Avemeo cloud (`ds.avemeo.com`) is operated by Avemeo s.r.o. The API and the AI connector work the same way on both; only the URLs differ.
 
-**Does Avemeo have a public API?**
-Yes. Every Avemeo cloud publishes an OpenAPI 3 specification at `https://<your-cloud>/backend/openapi/`. It is the same API the CMS uses, with 380+ operations covering media, screens, playlists, schedulers, devices, remote control and statistics. You need an Avemeo account to use it. See [docs/api-overview.md](docs/api-overview.md).
+**Does Avemeo have an API?**
+Yes. Avemeo has a REST API – the same one the CMS uses – covering media, screens, playlists, schedulers, devices, remote control and statistics. The technical documentation is provided to customers and integrators after sign-in and on request; it is not public. A new API v2 with its own documentation is in preparation. See [docs/api-overview.md](docs/api-overview.md).
 
 **What is MCP and why does it matter?**
 The Model Context Protocol (MCP) is an open standard that lets AI assistants use external tools and data sources. Because Avemeo exposes a remote MCP server, any MCP-compatible assistant – Claude, ChatGPT, Gemini CLI, Cursor, VS Code and others – can work with your Avemeo account without custom development.
@@ -238,7 +222,7 @@ More questions and answers: [docs/faq.md](docs/faq.md).
 
 | Document | Content |
 |---|---|
-| [docs/api-overview.md](docs/api-overview.md) | REST API: authentication, main areas, paging, examples |
+| [docs/api-overview.md](docs/api-overview.md) | REST API: who can use it, typical integrations, API v2 |
 | [docs/mcp-connector.md](docs/mcp-connector.md) | AI connector (MCP): supported assistants, sign-in, planned tools, security, pilot |
 | [docs/use-cases.md](docs/use-cases.md) | What you can do with Avemeo and an AI assistant – retail, hotels, offices, operations |
 | [docs/faq.md](docs/faq.md) | Frequently asked questions |

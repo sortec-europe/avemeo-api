@@ -30,10 +30,10 @@ SORTEC EUROPE s.r.o. – distributor and business & development partner of Aveme
 ## REST API
 
 **Does Avemeo have an API?**
-Yes. Every Avemeo cloud publishes an OpenAPI 3 specification at `https://<your-cloud>/backend/openapi/` with 380+ operations. It is the same API the CMS uses. See the [API overview](api-overview.md).
+Yes. Avemeo has a REST API – the same one the CMS uses – covering media, screens, playlists, schedulers, devices, remote control and statistics. The technical documentation is provided to customers and integrators after sign-in and on request; it is not public. See the [API overview](api-overview.md).
 
-**How do I authenticate?**
-Sign in with `POST /api/auth/login` to get a JWT, then send `Authorization: Bearer <token>` and `Active-Profile-Id: <account id>` with every request. Remote device control uses an `api-key` header instead.
+**Why is the technical API documentation not public?**
+The current API was designed for the Avemeo CMS, not as a public interface. Avemeo provides its documentation to customers and integrators individually, and a new API v2 with its own documentation is in preparation.
 
 **Can I get a test account?**
 Write to [avemeo@sortec.sk](mailto:avemeo@sortec.sk); access for integrators and pilot customers is arranged individually.
@@ -41,8 +41,8 @@ Write to [avemeo@sortec.sk](mailto:avemeo@sortec.sk); access for integrators and
 **What can I build with it?**
 Integrations with hotel systems (PMS), ERP and marketing tools; automated content updates; monitoring and reporting; custom dashboards. See [use cases](use-cases.md).
 
-**Where is the full endpoint list?**
-In the Swagger UI on your cloud (`/backend/openapi/`). The [API overview](api-overview.md) explains the main areas, conventions and examples.
+**Where do I get the technical documentation?**
+Write to [avemeo@sortec.sk](mailto:avemeo@sortec.sk) with your company, your cloud and what you want to integrate.
 
 ## AI connector (MCP)
 

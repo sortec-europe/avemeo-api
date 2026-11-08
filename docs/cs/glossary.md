@@ -36,7 +36,7 @@ Krátké definice pojmů, které se používají v této dokumentaci, v Avemeo C
 
 **Obsah zařízení** – přiřazení toho, co zařízení přehrává: obrazovka s úrovní nebo plánovač.
 
-**OpenAPI** – standardní strojově čitelný popis REST API. Avemeo zveřejňuje specifikaci OpenAPI 3 na každém cloudu na adrese `/backend/openapi/`.
+**OpenAPI** – standardní strojově čitelný popis REST API. Avemeo poskytuje specifikaci OpenAPI 3 svého API zákazníkům a integrátorům na vyžádání.
 
 **Plán (dvoukrokový zápis)** – v AI konektoru se každá změna nejdřív připraví jako plán se shrnutím před/po a provede se až po schválení uživatelem.
 
@@ -52,7 +52,7 @@ Krátké definice pojmů, které se používají v této dokumentaci, v Avemeo C
 
 **Šablona** – hotová obrazovka nebo menu v Avemeo, které se zduplikuje a naplní texty, obrázky a jazyky zákazníka.
 
-**Účet (profil)** – prostor zákazníka v Avemeo s vlastními médii, obrazovkami, playlisty, plánovači, zařízeními a uživateli. Jeden uživatel může mít přístup do více účtů; požadavky API vybírají účet hlavičkou `Active-Profile-Id`.
+**Účet (profil)** – prostor zákazníka v Avemeo s vlastními médii, obrazovkami, playlisty, plánovači, zařízeními a uživateli. Jeden uživatel může mít přístup do více účtů.
 
 **Úroveň** – jeden stav interaktivní obrazovky (například hlavní menu, stránka restaurace, výběr jazyka). Widgety jsou viditelné nebo aktivní na konkrétních úrovních; tlačítka přepínají mezi úrovněmi.
 

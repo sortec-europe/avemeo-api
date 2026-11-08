@@ -2,6 +2,12 @@
 
 Notable changes to this documentation repository. Dates are in ISO format (YYYY-MM-DD).
 
+## 2026-11-08
+
+### Removed
+
+- Technical details of the current Avemeo REST API (endpoints, headers, response formats, code examples) from all languages, at the request of the Avemeo team: the API documentation is provided to customers and integrators individually and a new API v2 with its own documentation is in preparation. The API pages now describe who can use the API, typical integrations and the v2 plan.
+
 ## 2026-11-07 (2)
 
 ### Added
