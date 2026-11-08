@@ -12,6 +12,7 @@ Thanks for helping improve the documentation of the Avemeo REST API and AI conne
 
 - **Keep facts verifiable.** Only document behaviour you have observed on an Avemeo cloud or that the Avemeo team has confirmed. Mark planned functionality clearly as *planned* or *in development*.
 - **Keep all languages in sync.** Most pages exist in English (`docs/`, `README.md`), Slovak (`docs/sk/`, `README.sk.md`) and Czech (`docs/cs/`, `README.cs.md`). If you change one, change the others or say in the pull request that the translations are still needed.
+- **No technical API details.** Endpoints, headers, request and response formats and code examples of the Avemeo API are not published in this repository – the API documentation is provided by Avemeo to customers and integrators individually. Anything beyond a high-level description needs the Avemeo team's approval.
 - **No secrets.** Never include tokens, passwords, API keys, device tokens or personal data – not even in examples. Use placeholders such as `<token>` or `YOUR_USER`.
 - **No customer data.** Use generic names (for example *Main Street store*, *room 204*) rather than real customers, device IDs or screen names from production accounts.
 - **Style:** short sentences, one idea per paragraph, tables for structured facts, code blocks for anything a reader will copy. Headings should say what the section is about so that people and search engines can find it.

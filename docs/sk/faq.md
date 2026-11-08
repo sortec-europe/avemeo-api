@@ -30,10 +30,10 @@ SORTEC EUROPE s.r.o. – distribútor a obchodno-vývojový partner Avemeo a par
 ## REST API
 
 **Má Avemeo API?**
-Áno. Každý cloud Avemeo zverejňuje špecifikáciu OpenAPI 3 na adrese `https://<váš-cloud>/backend/openapi/` s viac ako 380 operáciami. Je to to isté API, ktoré používa CMS. Pozrite [prehľad API](api-overview.md).
+Áno. Avemeo má REST API – to isté, ktoré používa CMS – pre médiá, obrazovky, playlisty, plánovače, zariadenia, diaľkové ovládanie a štatistiky. Technická dokumentácia sa poskytuje zákazníkom a integrátorom po prihlásení a na požiadanie; nie je verejná. Pozrite [prehľad API](api-overview.md).
 
-**Ako sa autentifikujem?**
-Prihláste sa cez `POST /api/auth/login`, získate JWT, a potom s každou požiadavkou posielajte `Authorization: Bearer <token>` a `Active-Profile-Id: <id konta>`. Diaľkové ovládanie zariadení používa namiesto toho hlavičku `api-key`.
+**Prečo nie je technická dokumentácia API verejná?**
+Súčasné API bolo navrhnuté pre Avemeo CMS, nie ako verejné rozhranie. Avemeo poskytuje jeho dokumentáciu zákazníkom a integrátorom individuálne a pripravuje nové API v2 s vlastnou dokumentáciou.
 
 **Dostanem testovacie konto?**
 Napíšte na [avemeo@sortec.sk](mailto:avemeo@sortec.sk); prístup pre integrátorov a pilotných zákazníkov sa rieši individuálne.
@@ -41,8 +41,8 @@ Napíšte na [avemeo@sortec.sk](mailto:avemeo@sortec.sk); prístup pre integrát
 **Čo s tým môžem postaviť?**
 Integrácie s hotelovými systémami (PMS), ERP a marketingovými nástrojmi; automatické aktualizácie obsahu; monitoring a reporting; vlastné dashboardy. Pozrite [príklady použitia](use-cases.md).
 
-**Kde je úplný zoznam endpointov?**
-V Swagger UI na vašom cloude (`/backend/openapi/`). [Prehľad API](api-overview.md) vysvetľuje hlavné oblasti, konvencie a príklady.
+**Kde získam technickú dokumentáciu?**
+Napíšte na [avemeo@sortec.sk](mailto:avemeo@sortec.sk) s názvom firmy, vaším cloudom a tým, čo chcete integrovať.
 
 ## AI konektor (MCP)
 

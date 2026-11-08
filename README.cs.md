@@ -11,7 +11,7 @@
 
 <p>
   <a href="docs/cs/mcp-connector.md"><img alt="AI konektor: ve vývoji – připravuje se pilot" src="https://img.shields.io/badge/AI%20konektor-ve%20v%C3%BDvoji%20%C2%B7%20pilot-orange"></a>
-  <a href="docs/cs/api-overview.md"><img alt="REST API: OpenAPI 3, více než 380 operací" src="https://img.shields.io/badge/REST%20API-OpenAPI%203%20%C2%B7%20380%2B%20operac%C3%AD-0ea5e9"></a>
+  <a href="docs/cs/api-overview.md"><img alt="REST API: pro zákazníky, připravuje se v2" src="https://img.shields.io/badge/REST%20API-pro%20z%C3%A1kazn%C3%ADky%20%C2%B7%20p%C5%99ipravuje%20se%20v2-0ea5e9"></a>
   <a href="https://modelcontextprotocol.io"><img alt="Model Context Protocol: vzdálený server s OAuth" src="https://img.shields.io/badge/MCP-vzd%C3%A1len%C3%BD%20server%20%C2%B7%20OAuth-7c3aed"></a>
   <a href="LICENSE"><img alt="Licence dokumentace: CC BY 4.0" src="https://img.shields.io/badge/licence%20dokumentace-CC%20BY%204.0-lightgrey"></a>
   <a href="README.md"><img alt="English version" src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7-English%20version-16a34a"></a>
@@ -45,7 +45,7 @@
 |---|---|
 | **Produkt** | Avemeo – cloudový CMS pro digital signage, hotelovou TV a audio/video v prodejnách |
 | **Cloudy** | Avemeo (`ds.avemeo.com`) · [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) od Slovak Telekomu (`cloud.tvstream.sk`) |
-| **REST API** | specifikace OpenAPI 3, více než 380 operací, stejné API, které používá Avemeo CMS → [přehled API](docs/cs/api-overview.md) |
+| **REST API** | stejné API, které používá Avemeo CMS; technická dokumentace pro zákazníky a integrátory na vyžádání, připravuje se API v2 → [přehled API](docs/cs/api-overview.md) |
 | **AI konektor (MCP)** | vzdálený MCP server s přihlášením přes OAuth pro Claude, ChatGPT, Gemini, Cursor, VS Code a další MCP klienty → [podrobnosti](docs/cs/mcp-connector.md) · **Stav: ve vývoji, připravuje se pilot s vybranými zákazníky** |
 | **AI asistent v CMS** | asistent zabudovaný přímo v Avemeo CMS pro zákazníky bez vlastního AI nástroje · **Stav: ve vývoji** |
 | **Přehrávače** | displeje LG (webOS), Samsung a Vestel · přehrávače s Androidem · Raspberry Pi · IPTV set-top boxy ARRIS VIP4302 |
@@ -123,7 +123,7 @@ Další scénáře pro retail, hotely, firmy a provoz: [příklady použití](do
 - **Audio a video v prodejnách** – hudba a spoty v náhodném pořadí, kampaně podle prodejen nebo skupin, statistiky přehrávání (proof of play) po zařízeních, obrazovkách a souborech s exportem do CSV.
 - **Správa zařízení** – zapnutí a vypnutí, obnovení, restart, hlasitost, TV kanál, screenshoty, sledování online/offline s upozorněním e-mailem a SMS.
 - **Samoobsluha a další** – hotelový kiosek, vyvolávací systém, kvízy, digitální menu, kongresová a eventová navigace.
-- **Otevřené REST API** – zdokumentovaná specifikace OpenAPI 3 pro integrace a automatizaci.
+- **REST API** – integrace a automatizace pro zákazníky a integrátory (dokumentace na vyžádání).
 
 ## Podporované přehrávače a displeje
 
@@ -138,25 +138,9 @@ Další scénáře pro retail, hotely, firmy a provoz: [příklady použití](do
 
 ## Rychlý start: REST API
 
-Avemeo REST API je stejné API, které používá webová aplikace Avemeo CMS. Popisuje ho specifikace **OpenAPI 3** zveřejněná na každém cloudu Avemeo na adrese `https://<váš-cloud>/backend/openapi/`.
+Avemeo má REST API – stejné rozhraní, které používá Avemeo CMS – pro média, obrazovky, playlisty, plánovače, zařízení, dálkové ovládání a statistiky. Technická dokumentace (specifikace OpenAPI 3, autentizace, příklady) se poskytuje **zákazníkům a integrátorům po přihlášení a na vyžádání**, ne veřejně, protože současné API bylo navrženo pro CMS. Připravuje se nové API v2 s vlastní dokumentací.
 
-```bash
-BASE_URL=https://cloud.tvstream.sk/backend   # Business Stream – nebo https://ds.avemeo.com/backend pro cloud Avemeo
-
-# 1. Přihlášení – odpověď je {"status":"success","data":{"accessToken":"…"}}
-curl -s -X POST "$BASE_URL/api/auth/login" \
-  -H "Content-Type: application/json" \
-  -d '{"username":"UZIVATEL","password":"HESLO"}'
-
-# 2. Seznam playlistů účtu
-curl -s -X POST "$BASE_URL/api/playlist" \
-  -H "Authorization: Bearer $TOKEN" \
-  -H "Active-Profile-Id: $ID_UCTU" \
-  -H "Content-Type: application/json" \
-  -d '{"filter":{},"page_number":1,"page_size":100,"sort_field":"id","sort_order":"asc"}'
-```
-
-Autentizace, hlavní oblasti API (složky, média, obrazovky, playlisty, plánovače, zařízení, dálkové ovládání, statistiky) a další příklady: **[docs/cs/api-overview.md](docs/cs/api-overview.md)**.
+Integrátoři: napište na [avemeo@sortec.sk](mailto:avemeo@sortec.sk). Přehled a typické integrace: **[docs/cs/api-overview.md](docs/cs/api-overview.md)**.
 
 ## Rychlý start: AI konektor (MCP)
 
@@ -190,7 +174,7 @@ Podporovaní asistenti, plánované nástroje, oprávnění a bezpečnost: **[do
 | Součást | Stav (listopad 2026) |
 |---|---|
 | Platforma Avemeo a CMS | ✅ v provozu na obou cloudech |
-| REST API (OpenAPI 3) | ✅ dostupné zákazníkům Avemeo na každém cloudu |
+| REST API | ✅ dostupné zákazníkům Avemeo a integrátorům (dokumentace na vyžádání) · připravuje se API v2 |
 | AI konektor (vzdálený MCP server) | 🚧 ve vývoji – připravuje se pilot s vybranými zákazníky |
 | AI asistent zabudovaný v Avemeo CMS | 🚧 ve vývoji |
 | Historie změn a vrácení přes AI | 📋 v plánu |
@@ -205,8 +189,8 @@ Avemeo je cloudová platforma (CMS) pro digital signage, hotelovou TV a audio a 
 **Jaký je rozdíl mezi Avemeo a Business Stream?**
 Business Stream je služba Slovak Telekomu pro digital signage a hotelovou TV. Běží na platformě Avemeo ve vlastním cloudu (`cloud.tvstream.sk`). Cloud Avemeo (`ds.avemeo.com`) provozuje Avemeo s.r.o. API i AI konektor fungují na obou stejně, liší se jen adresy.
 
-**Má Avemeo veřejné API?**
-Ano. Každý cloud Avemeo zveřejňuje specifikaci OpenAPI 3 na adrese `https://<váš-cloud>/backend/openapi/`. Je to stejné API, které používá CMS – více než 380 operací pro média, obrazovky, playlisty, plánovače, zařízení, dálkové ovládání a statistiky. K jeho použití potřebujete účet Avemeo. Viz [docs/cs/api-overview.md](docs/cs/api-overview.md).
+**Má Avemeo API?**
+Ano. Avemeo má REST API – stejné, které používá CMS – pro média, obrazovky, playlisty, plánovače, zařízení, dálkové ovládání a statistiky. Technická dokumentace se poskytuje zákazníkům a integrátorům po přihlášení a na vyžádání; není veřejná. Připravuje se nové API v2 s vlastní dokumentací. Viz [docs/cs/api-overview.md](docs/cs/api-overview.md).
 
 **Co je MCP a proč je důležité?**
 Model Context Protocol (MCP) je otevřený standard, přes který AI asistenti používají externí nástroje a zdroje dat. Protože Avemeo poskytuje vzdálený MCP server, může s vaším účtem Avemeo pracovat kterýkoli asistent s podporou MCP – Claude, ChatGPT, Gemini CLI, Cursor, VS Code a další – bez vlastního vývoje.
@@ -238,7 +222,7 @@ Další otázky a odpovědi: [docs/cs/faq.md](docs/cs/faq.md).
 
 | Dokument | Obsah |
 |---|---|
-| [docs/cs/api-overview.md](docs/cs/api-overview.md) | REST API: autentizace, hlavní oblasti, stránkování, příklady |
+| [docs/cs/api-overview.md](docs/cs/api-overview.md) | REST API: kdo ho může používat, typické integrace, API v2 |
 | [docs/cs/mcp-connector.md](docs/cs/mcp-connector.md) | AI konektor (MCP): podporovaní asistenti, přihlášení, plánované nástroje, bezpečnost, pilot |
 | [docs/cs/use-cases.md](docs/cs/use-cases.md) | Co uděláte s Avemeo a AI asistentem – retail, hotely, firmy, provoz |
 | [docs/cs/faq.md](docs/cs/faq.md) | Často kladené otázky |

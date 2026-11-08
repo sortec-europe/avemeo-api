@@ -4,7 +4,7 @@
 
 Short definitions of the terms used in this documentation, in the Avemeo CMS and in the AI connector. Alphabetical.
 
-**Account (profile)** – a customer space in Avemeo with its own media, screens, playlists, schedulers, devices and users. One user may have access to several accounts; API requests select the account with the `Active-Profile-Id` header.
+**Account (profile)** – a customer space in Avemeo with its own media, screens, playlists, schedulers, devices and users. One user may have access to several accounts.
 
 **Audit log** – a record of every action, including those made through the AI connector, with the user, the client and the time.
 
@@ -36,7 +36,7 @@ Short definitions of the terms used in this documentation, in the Avemeo CMS and
 
 **OAuth** – the sign-in standard used by the AI connector. The user signs in on the Avemeo page; the assistant receives a limited, revocable token and never sees the password.
 
-**OpenAPI** – a standard, machine-readable description of a REST API. Avemeo publishes an OpenAPI 3 specification on every cloud at `/backend/openapi/`.
+**OpenAPI** – a standard, machine-readable description of a REST API. Avemeo provides an OpenAPI 3 specification of its API to customers and integrators on request.
 
 **Plan (two-step write)** – in the AI connector, every change is first prepared as a plan with a before/after summary and applied only after the user approves it.
 

@@ -26,7 +26,7 @@ Krátke definície pojmov, ktoré sa používajú v tejto dokumentácii, v Aveme
 
 **Interaktívne menu** – obrazovka s viacerými úrovňami, v ktorej sa hosť alebo návštevník pohybuje diaľkovým ovládačom alebo dotykom, často vo viacerých jazykoch.
 
-**Konto (profil)** – priestor zákazníka v Avemeo s vlastnými médiami, obrazovkami, playlistmi, plánovačmi, zariadeniami a používateľmi. Jeden používateľ môže mať prístup do viacerých kont; požiadavky API vyberajú konto hlavičkou `Active-Profile-Id`.
+**Konto (profil)** – priestor zákazníka v Avemeo s vlastnými médiami, obrazovkami, playlistmi, plánovačmi, zariadeniami a používateľmi. Jeden používateľ môže mať prístup do viacerých kont.
 
 **MCP (Model Context Protocol)** – otvorený štandard na pripájanie AI asistentov k externým nástrojom a dátam. *Vzdialený MCP server* beží na internete a asistent ho používa cez HTTPS s prihlásením cez OAuth. AI konektor Avemeo je vzdialený MCP server.
 
@@ -38,7 +38,7 @@ Krátke definície pojmov, ktoré sa používajú v tejto dokumentácii, v Aveme
 
 **Obsah zariadenia** – priradenie toho, čo zariadenie prehráva: obrazovka s úrovňou alebo plánovač.
 
-**OpenAPI** – štandardný strojovo čitateľný popis REST API. Avemeo zverejňuje špecifikáciu OpenAPI 3 na každom cloude na adrese `/backend/openapi/`.
+**OpenAPI** – štandardný strojovo čitateľný popis REST API. Avemeo poskytuje špecifikáciu OpenAPI 3 svojho API zákazníkom a integrátorom na požiadanie.
 
 **Plán (dvojkrokový zápis)** – v AI konektore sa každá zmena najprv pripraví ako plán so zhrnutím pred/po a vykoná sa až po schválení používateľom.
 

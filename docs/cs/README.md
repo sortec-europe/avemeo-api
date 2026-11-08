@@ -4,7 +4,7 @@ Dokumentace **Avemeo REST API** a **AI konektoru Avemeo (MCP)** – cloudové pl
 
 | 🇨🇿 Česky | English | 🇸🇰 Slovensky | Obsah |
 |---|---|---|---|
-| [api-overview.md](api-overview.md) | [../api-overview.md](../api-overview.md) | [../sk/api-overview.md](../sk/api-overview.md) | REST API: specifikace, autentizace, hlavní oblasti, příklady, konvence |
+| [api-overview.md](api-overview.md) | [../api-overview.md](../api-overview.md) | [../sk/api-overview.md](../sk/api-overview.md) | REST API: kdo ho může používat, typické integrace, API v2 |
 | [mcp-connector.md](mcp-connector.md) | [../mcp-connector.md](../mcp-connector.md) | [../sk/mcp-connector.md](../sk/mcp-connector.md) | AI konektor (MCP): jak funguje, podporovaní asistenti, oprávnění, plánované nástroje, bezpečnost |
 | [use-cases.md](use-cases.md) | [../use-cases.md](../use-cases.md) | [../sk/use-cases.md](../sk/use-cases.md) | Příklady použití pro retail, hotely, firmy, provoz, tvorbu obsahu, vývojáře |
 | [faq.md](faq.md) | [../faq.md](../faq.md) | [../sk/faq.md](../sk/faq.md) | Často kladené otázky |

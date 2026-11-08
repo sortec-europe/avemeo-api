@@ -11,7 +11,7 @@
 | **Co** | cloudový CMS pro digital signage, hotelovou TV (hotelová IPTV) a audio/video v prodejnách |
 | **Kde** | cloud Avemeo (`ds.avemeo.com`) a Business Stream od Slovak Telekomu (`cloud.tvstream.sk`) |
 | **Zařízení** | displeje LG (webOS), Samsung a Vestel · Android · Raspberry Pi · IPTV set-top boxy ARRIS |
-| **Integrace** | otevřené REST API (OpenAPI 3, více než 380 operací) · AI konektor (MCP) pro Claude, ChatGPT, Gemini – ve vývoji |
+| **Integrace** | REST API pro zákazníky a integrátory (dokumentace na vyžádání, připravuje se v2) · AI konektor (MCP) pro Claude, ChatGPT, Gemini – ve vývoji |
 | **Partner** | SORTEC EUROPE s.r.o. – prodej, nasazení, podpora, pilotní program · [avemeo@sortec.sk](mailto:avemeo@sortec.sk) |
 
 ## Pro koho
@@ -49,7 +49,7 @@ Konektor (adresa `https://mcp.avemeo.com/mcp`, pro Business Stream `https://mcp.
 
 - **Jedna platforma** pro signage, hotelovou TV i audio v prodejnách.
 - **Partner, který mluví vaším jazykem** – podpora a nasazení v češtině a slovenštině. Dostupné také jako služba [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) od Slovak Telekomu.
-- **Otevřené API** se zdokumentovanou specifikací OpenAPI.
+- **REST API** pro integrace s hotelovými, ERP a marketingovými systémy.
 - **AI bez vlastního vývoje** – použijete AI, kterou vaši lidé už mají.
 
 **Kontakt:** SORTEC EUROPE s.r.o. – distributor a obchodně-vývojový partner Avemeo, partner pro [Business Stream](https://www.telekom.sk/biznis/stredne-velke-firmy/business-stream) ve Slovak Telekomu. [avemeo@sortec.sk](mailto:avemeo@sortec.sk) · [avemeo.sk](https://avemeo.sk)

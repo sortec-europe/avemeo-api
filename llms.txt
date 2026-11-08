@@ -1,11 +1,11 @@
 # Avemeo API & AI Connector (MCP)
 
-> Avemeo is a cloud platform (CMS) for digital signage, hotel TV (hospitality IPTV) and in-store audio/video, developed by Avemeo s.r.o. This repository documents the Avemeo REST API (OpenAPI 3, 380+ operations) and the Avemeo AI connector – a remote Model Context Protocol (MCP) server that lets Claude, ChatGPT, Gemini and other MCP-compatible AI assistants manage screens, playlists, schedulers and players with the user's permissions and approval before every change. Maintained by SORTEC EUROPE s.r.o., distributor and business & development partner of Avemeo in Slovakia.
+> Avemeo is a cloud platform (CMS) for digital signage, hotel TV (hospitality IPTV) and in-store audio/video, developed by Avemeo s.r.o. This repository describes the Avemeo platform, its REST API (for customers and integrators) and the Avemeo AI connector – a remote Model Context Protocol (MCP) server that lets Claude, ChatGPT, Gemini and other MCP-compatible AI assistants manage screens, playlists, schedulers and players with the user's permissions and approval before every change. Maintained by SORTEC EUROPE s.r.o., distributor and business & development partner of Avemeo in Slovakia.
 
 Key facts:
 
 - Clouds: Avemeo (ds.avemeo.com) and Business Stream by Slovak Telekom (cloud.tvstream.sk). Business Stream is a Slovak Telekom service that runs on the Avemeo platform.
-- REST API: same API the Avemeo CMS uses; OpenAPI 3 specification at https://<cloud>/backend/openapi/; server base path /backend; sign in with POST /api/auth/login (returns {"status":"success","data":{"accessToken":"<JWT>"}}), then send Authorization: Bearer <token> and Active-Profile-Id: <account id>; remote device control uses an api-key header.
+- REST API: the same API the Avemeo CMS uses, covering media, screens, playlists, schedulers, devices, remote control and statistics. Technical documentation (OpenAPI 3 specification, authentication, endpoints) is provided to customers and integrators after sign-in and on request; it is not public. A new API v2 with its own documentation is in preparation.
 - AI connector (MCP): remote MCP server with OAuth sign-in; connector URLs at launch: https://mcp.avemeo.com/mcp (Avemeo cloud) and https://mcp.tvstream.sk/mcp (Business Stream). Status: in development, pilot with selected customers being prepared (November 2026).
 - Safety model: user signs in with OAuth and chooses account and access level; every change is prepared as a plan and applied only after the user approves; deleting through AI is not available; every call is written to an audit log; content from Avemeo is treated as data, not instructions.
 - Supported players: LG (webOS), Samsung and Vestel commercial displays; Android players and TVs; Raspberry Pi; ARRIS VIP4302 IPTV set-top boxes.
@@ -17,8 +17,8 @@ Key facts:
 
 ## Documentation (English)
 
-- [README](https://github.com/sortec-europe/avemeo-api/blob/main/README.md): overview, quick start for the REST API and the AI connector, FAQ, contact
-- [REST API overview](https://github.com/sortec-europe/avemeo-api/blob/main/docs/api-overview.md): specification location, authentication, response format, main areas, examples, conventions
+- [README](https://github.com/sortec-europe/avemeo-api/blob/main/README.md): overview, REST API summary, quick start for the AI connector, FAQ, contact
+- [REST API overview](https://github.com/sortec-europe/avemeo-api/blob/main/docs/api-overview.md): who can use the API, typical integrations, API v2
 - [AI connector (MCP)](https://github.com/sortec-europe/avemeo-api/blob/main/docs/mcp-connector.md): how it works, supported assistants, sign-in and permissions, planned tools, security, FAQ, pilot
 - [Use cases](https://github.com/sortec-europe/avemeo-api/blob/main/docs/use-cases.md): retail, hotels, offices, operations, content production, developers
 - [FAQ](https://github.com/sortec-europe/avemeo-api/blob/main/docs/faq.md): frequently asked questions about Avemeo, the API and the connector
@@ -26,7 +26,7 @@ Key facts:
 
 ## Dokumentácia (slovensky)
 
-- [README.sk](https://github.com/sortec-europe/avemeo-api/blob/main/README.sk.md): prehľad, rýchly štart REST API a AI konektora, FAQ, kontakt
+- [README.sk](https://github.com/sortec-europe/avemeo-api/blob/main/README.sk.md): prehľad, REST API, rýchly štart AI konektora, FAQ, kontakt
 - [Prehľad REST API](https://github.com/sortec-europe/avemeo-api/blob/main/docs/sk/api-overview.md)
 - [AI konektor (MCP)](https://github.com/sortec-europe/avemeo-api/blob/main/docs/sk/mcp-connector.md)
 - [Príklady použitia](https://github.com/sortec-europe/avemeo-api/blob/main/docs/sk/use-cases.md)
@@ -35,7 +35,7 @@ Key facts:
 
 ## Dokumentace (česky)
 
-- [README.cs](https://github.com/sortec-europe/avemeo-api/blob/main/README.cs.md): přehled, rychlý start REST API a AI konektoru, FAQ, kontakt
+- [README.cs](https://github.com/sortec-europe/avemeo-api/blob/main/README.cs.md): přehled, REST API, rychlý start AI konektoru, FAQ, kontakt
 - [Přehled REST API](https://github.com/sortec-europe/avemeo-api/blob/main/docs/cs/api-overview.md)
 - [AI konektor (MCP)](https://github.com/sortec-europe/avemeo-api/blob/main/docs/cs/mcp-connector.md)
 - [Příklady použití](https://github.com/sortec-europe/avemeo-api/blob/main/docs/cs/use-cases.md)
